@@ -16,7 +16,6 @@ body{
     position: absolute;
     height: 350px;
     width: 400px;
-    overflow: auto;
 }
 
 #TextField{
