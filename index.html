@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="index.css">
+        <script src="calculator.js"></script>
+    </head>
+
+    <body>
+        <div id="calculator-body">
+
+            <div id="TextField">
+                <p id="Display">0.</p>
+            </div>
+
+            <div id="control-pad">
+
+                <div id="NumberPad">
+                    <button onclick="insertNumber(7)" class="button">7</button>
+                    <button onclick="insertNumber(8)" class="button">8</button>
+                    <button onclick="insertNumber(9)" class="button">9</button>
+
+                    <button onclick="insertNumber(4)" class="button">4</button>
+                    <button onclick="insertNumber(5)" class="button">5</button>
+                    <button onclick="insertNumber(6)" class="button">6</button>
+
+                    <button onclick="insertNumber(1)" class="button">1</button>
+                    <button onclick="insertNumber(2)" class="button">2</button>
+                    <button onclick="insertNumber(3)" class="button">3</button>
+
+                    <button onclick="insertZero()" class="button">0</button>
+                    <button onclick="insertDoubleZero()" class="button">00</button>
+                    <button onclick="decimal()" class="button">.</button>
+                </div>
+
+                <div id="Operators">
+                    <button onclick="allClear()" class="button" id="ac">AC</button>
+                    <button onclick="cellClear()" class="button" id="c">C</button>
+                    <button onclick="negativePositiveSwitch()" class="button" id="pos-neg">+/-</button>
+                    <button onclick="addition()" id="addition" class="button" id="addition">+</button>
+                    <button onclick="subtraction()" id="subtraction" class="button" id="subtraction">-</button>
+                    <button onclick="division()" id="division" class="button" id="division">/</button>
+                    <button onclick="multiplication()" id="multiplication" class="button" id="multiplication">x</button>
+                    <button onclick="calculate()" class="button" id="calc">=</button>
+                </div>
+
+            </div>
+        </div>
+    </body>
+</html>

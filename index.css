@@ -1,0 +1,76 @@
+body{
+    background-image: linear-gradient(blue, purple);
+    background-attachment: fixed;
+}
+
+#calculator-body{
+    background-color: cadetblue;
+    border-style: solid;
+
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    margin: auto;
+    position: absolute;
+    height: 350px;
+    width: 400px;
+    overflow: auto;
+}
+
+#TextField{
+    width: 100%;
+    background-color: aqua;
+    height: 10%;
+    width: 98%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    margin-bottom: 25px;
+    border-radius: 5px;
+}
+
+
+#Display{
+    text-align: right;
+}
+
+#control-pad{
+    display: grid;
+    grid-template-columns: 55% auto;
+    grid-template-rows: auto;
+    grid-column-gap: 25px;
+    margin: auto;
+}
+
+#NumberPad{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    grid-row-gap: 5px;
+}
+
+#Operators{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto auto;
+    grid-row-gap: 5px;
+}
+
+.button{
+    width: 65px;
+    height: 40px;
+    margin: 0;
+    background-color: rgb(33, 122, 194);
+}
+.button:active{
+    background-color: red;
+}
+
+#addition{
+    grid-column: 1;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    height: auto;
+}
