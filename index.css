@@ -24,24 +24,24 @@ body{
     background-color: aqua;
     height: 10%;
     width: 370px;
-    left: 0;
-    right: 0;
-    margin: auto;
-    margin-bottom: 25px;
+    margin: 15px auto 17px auto;
+    padding-bottom: 11px;
     border-radius: 5px;
 }
 
 
 #Display{
     text-align: right;
-    font-size: 30px;
+    font-size: 43px;
+    margin: 0;
+    height: auto;
+    width: auto;
 }
 
 #control-pad{
     display: grid;
-    grid-template-columns: 55% auto;
+    grid-template-columns: auto auto;
     grid-template-rows: auto;
-    grid-column-gap: 25px;
     margin: auto;
 }
 
@@ -50,6 +50,8 @@ body{
     grid-template-columns: auto auto auto;
     grid-template-rows: auto auto auto auto;
     grid-row-gap: 5px;
+    grid-column-gap: 0;
+    justify-content: space-evenly;
 }
 
 #Operators{
@@ -57,21 +59,18 @@ body{
     grid-template-columns: auto auto;
     grid-template-rows: auto auto auto auto;
     grid-row-gap: 5px;
+    grid-column-gap: 0;
+    justify-content: space-evenly;
 }
+
 
 .button{
-    width: 65px;
-    height: 40px;
     margin: 0;
     background-color: rgb(33, 122, 194);
-}
-.button:active{
-    background-color: red;
+    height: 60px;
+    width: 60px;
 }
 
-#addition{
-    grid-column: 1;
-    grid-row-start: 3;
-    grid-row-end: 4;
-    height: auto;
+.button:active{
+    background-color: red;
 }
