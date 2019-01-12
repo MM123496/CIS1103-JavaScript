@@ -69,6 +69,7 @@ body{
     background-color: rgb(33, 122, 194);
     height: 60px;
     width: 60px;
+    font-size: 25px;
 }
 
 .button:active{
